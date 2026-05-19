@@ -38,3 +38,6 @@ build/
 *.iws
 *.ipr
 out/
+
+# macOs
+.DS_Store
