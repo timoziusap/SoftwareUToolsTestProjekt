@@ -9,5 +9,12 @@ class SoftwareUToolsTestProjektApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+	
+	methods t = new methods();
+	
+	@Test
+	public void Test1() {
+		t.schreiben();
+	}
 
 }
