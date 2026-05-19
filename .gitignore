@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# macOs
+.DS_Store
