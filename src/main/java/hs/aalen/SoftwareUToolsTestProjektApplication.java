@@ -13,6 +13,7 @@ public class SoftwareUToolsTestProjektApplication {
 		SpringApplication.run(SoftwareUToolsTestProjektApplication.class, args);
 		methods t = new methods();
 		t.schreiben();
+	
 	}
 
 }

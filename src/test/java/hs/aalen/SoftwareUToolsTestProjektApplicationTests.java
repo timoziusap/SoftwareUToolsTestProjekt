@@ -1,5 +1,5 @@
 package hs.aalen;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -16,5 +16,10 @@ class SoftwareUToolsTestProjektApplicationTests {
 	public void Test1() {
 		t.schreiben();
 	}
+	@Test
+	public void Test2() {
+		assertEquals(1, 2);
+	}
+	
 
 }
