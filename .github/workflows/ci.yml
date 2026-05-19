@@ -20,4 +20,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build and test with Maven
-        run: ./mvnw test
+        run: |
+          chmod +x mvnw
+          ./mvnw test
