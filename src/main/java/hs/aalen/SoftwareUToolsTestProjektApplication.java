@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SoftwareUToolsTestProjektApplication {
-//Hey das hier ist die erste änderung Grüße Timo 
+//Hey das hier ist die erste änderung Grüße Timo
+//Moin Leute
 	public static void main(String[] args) {
 		SpringApplication.run(SoftwareUToolsTestProjektApplication.class, args);
 		methods t = new methods();
