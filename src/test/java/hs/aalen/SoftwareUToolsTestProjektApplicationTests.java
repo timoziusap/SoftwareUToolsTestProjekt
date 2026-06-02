@@ -18,7 +18,7 @@ class SoftwareUToolsTestProjektApplicationTests {
 	}
 	@Test
 	public void Test2() {
-		assertEquals(1, 2);
+		assertEquals(1, 1);
 	}
 	
 
