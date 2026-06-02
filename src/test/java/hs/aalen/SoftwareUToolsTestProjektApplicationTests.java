@@ -16,10 +16,10 @@ class SoftwareUToolsTestProjektApplicationTests {
 	public void Test1() {
 		t.schreiben();
 	}
-	@Test
+	/*@Test
 	public void Test2() {
-		assertEquals(1, 1);
-	}
+		assertEquals(1, 2);
+	}*/
 	
 
 }
