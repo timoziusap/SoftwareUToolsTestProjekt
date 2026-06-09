@@ -27,6 +27,7 @@ public class HomeController {
                             margin: 0;
                         }
                         h1 { font-size: 3em; }
+                        .testbanner { font-size: 6em; color: #2ecc71; font-weight: bold; margin-bottom: 30px; }
                         p { color: #8b949e; font-size: 1.2em; }
                         .badge {
                             background: #238636;
@@ -39,6 +40,7 @@ public class HomeController {
                     </style>
                 </head>
                 <body>
+                    <div class="testbanner">test klappt</div>
                     <h1>🚀 CI/CD Demo</h1>
                     <p>Hochschule Aalen – Softwareengineering und Tools</p>
                     <p>Automatically deployed via GitHub Actions + Render</p>
