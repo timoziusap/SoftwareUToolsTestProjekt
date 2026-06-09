@@ -40,7 +40,7 @@ public class HomeController {
                     </style>
                 </head>
                 <body>
-                    <div class="testbanner">test klappt</div>
+                    <div class="testbanner">auto deploy laeuft</div>
                     <h1>🚀 CI/CD Demo Timo unser GOAT, Marius ist big </h1>
                     <p>Hochschule Aalen – Softwareengineering und Tools</p>
                     <p>Automatically deployed via GitHub Actions + Render</p>
