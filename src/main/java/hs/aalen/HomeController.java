@@ -13,7 +13,7 @@ public class HomeController {
                 <html>
                 <head>
                     <meta charset="UTF-8">
-                    <title>CI/CD Demo</title>
+                    <title>CI/CD Demo Ist doch kacke ja</title>
                     <style>
                         body {
                             background: #0d1117;
