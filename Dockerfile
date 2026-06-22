@@ -1,9 +1,11 @@
-FROM maven:3.9-eclipse-temurin-21 AS build
+# Teil 1: Projekt mit Maven und Java 26 zur fertigen .jar bauen
+FROM maven:3.9-eclipse-temurin-26 AS build
 WORKDIR /app
 COPY . .
-RUN mvn clean package -DskipTests -Dmaven.compiler.release=21 -Dmaven.compiler.source=21 -Dmaven.compiler.target=21
+RUN mvn clean package -DskipTests
 
-FROM eclipse-temurin:21-jre
+# Teil 2: nur die fertige App mit Java 26 starten 
+FROM eclipse-temurin:26-jre
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
