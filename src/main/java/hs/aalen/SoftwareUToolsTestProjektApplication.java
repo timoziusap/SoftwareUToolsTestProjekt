@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SoftwareUToolsTestProjektApplication {
 
-	//Hello world
 	public static void main(String[] args) {
 		SpringApplication.run(SoftwareUToolsTestProjektApplication.class, args);
 		methods t = new methods();
